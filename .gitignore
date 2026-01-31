@@ -1,0 +1,22 @@
+# Archivos del sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Iconos personalizados
+Icon?
+
+# Archivos de miniaturas
+._*
+
+# Carpetas de Spotlight y papelera
+.Spotlight-V100
+.Trashes
+
+# Archivos temporales
+.fseventsd
+
+# Volúmenes remotos
+.DocumentRevisions-V100
+.TemporaryItems
+.apdisk
