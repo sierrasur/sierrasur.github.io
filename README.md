@@ -64,10 +64,12 @@ La red está en crecimiento. Cada nodo y cada repeater mejoran cobertura, rutas 
 
 ## Enlaces
 
-- MeshCore: https://meshcore.co.uk  
+- Nuestra web: https://sierrasur.github.io
 - Comunidad / coordinación: https://discord.gg/Drc87vUQVm
-- Código del proyecto: este repositorio
+- MeshCore: https://meshcore.co.uk  
+- Flasher de dispositivos: https://flasher.meshcore.co.uk/
+- Mapa de red: https://meshcore.co.uk/map.html
 
 ## Licencia
 
-Código y contenido bajo licencia **GNU GPL v3**.
+Código y contenido de este proyecto bajo licencia **GNU GPL v3**.
