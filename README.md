@@ -1,6 +1,6 @@
 # sierrasur.github.io
 
-![Red Sierra Sur](https://i.imgur.com/7BFFHE5.png=200x200)
+![Red Sierra Sur](https://i.imgur.com/uIHBBtC.png)
 
 [Red Sierra Sur](https://sierrasur.github.io) es una red comunitaria de comunicaciones digitales basada en **MeshCore** y tecnología **LoRa**, desplegada en la provincia de Jaén.
 
