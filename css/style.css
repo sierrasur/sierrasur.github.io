@@ -104,7 +104,7 @@
         /* Usa .section-light para fondo blanco o .section-dark para fondo negro */
         
         .section {
-            padding: 8rem 2rem;
+            padding: 4rem 2rem;
         }
 
         .section-light {
@@ -502,3 +502,21 @@
                 transform: translateX(-50%) translateY(-10px);
             }
         }
+
+        #network-map {
+    height: 600px;
+    width: 100%;
+    border: 3px solid var(--accent);
+    margin-top: 3rem;
+}
+
+/* Popups oscuros estilo SierraSur */
+.leaflet-popup-content-wrapper {
+    background: var(--black);
+    color: var(--white);
+    border: 2px solid var(--accent);
+}
+
+.leaflet-popup-tip {
+    background: var(--black);
+}

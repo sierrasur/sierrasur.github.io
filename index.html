@@ -26,6 +26,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Archivo+Black&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
 </head>
 <body>
     <!-- ==================== NAVBAR ==================== -->
@@ -41,6 +43,7 @@
             <a href="#la-red" class="navbar-item">La Red</a>
             <a href="#dispositivos" class="navbar-item">Dispositivos</a>
             <a href="#unirse" class="navbar-item">Unirse</a>
+            <a href="#mapa" class="navbar-item">Infraestructura</a> 
             <a href="#contacto" class="navbar-item">Contacto</a>
         </div>
     </nav>
@@ -192,6 +195,15 @@
         </div>
     </section>
 
+    <!--====================== MAPA NODOS ======================= -->
+    <section id="mapa" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">INFRAESTRUCTURA</h2>
+            <div id="network-map"></div>
+        </div>
+    </section>
+
+
     <!-- ==================== CONTACTO (Fondo Negro) ==================== -->
     <section id="contacto" class="section section-dark">
         <div class="container">
@@ -213,38 +225,10 @@
         <p style="margin-top: 1rem; font-size: 0.8rem;">Licencia GNU GPL v3 — Código y contenido libre</p>
     </footer>
 
-    <script>
-        // Navbar burger toggle
-        document.querySelector('.navbar-burger').addEventListener('click', function() {
-            this.classList.toggle('is-active');
-            document.querySelector('.navbar-menu').classList.toggle('is-active');
-        });
+     <!-- ==================== SCRIPTS ==================== -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
 
-        // Smooth scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    const navbarHeight = 60;
-                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
-                    
-                    window.scrollTo({
-                        top: targetPosition,
-                        behavior: 'smooth'
-                    });
-
-                    // Close mobile menu if open
-                    document.querySelector('.navbar-menu').classList.remove('is-active');
-                    document.querySelector('.navbar-burger').classList.remove('is-active');
-                }
-            });
-        });
-    </script>
-    <script>
-    // Año automático en el footer
-    document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "85f6bd3cc9ef4402a5dc02f8dd523ce5"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
