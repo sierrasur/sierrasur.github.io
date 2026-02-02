@@ -1,4 +1,4 @@
-# Red Sierra Sur · Red Mesh LoRa en Jaén
+# sierrasur.github.io
 
 [Red Sierra Sur](https://sierrasur.github.io) es una red comunitaria de comunicaciones digitales basada en **MeshCore** y tecnología **LoRa**, desplegada en la provincia de Jaén.
 
