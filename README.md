@@ -4,8 +4,6 @@ Red Sierra Sur es una red comunitaria de comunicaciones digitales basada en **Me
 
 Permite intercambiar mensajes por radio **sin Internet ni operadores de telecomunicaciones**, usando dispositivos personales que forman una red mallada autónoma.
 
----
-
 ## Qué es esta red (modelo MeshCore)
 
 Red Sierra Sur es una **red de mensajería digital cifrada sobre LoRa**, construida con dispositivos que ejecutan **MeshCore**.
@@ -23,8 +21,6 @@ No es una red P2P totalmente simétrica. En MeshCore existen **roles dentro de l
 
 No hay servidores de Internet ni infraestructura externa, pero sí existe una **estructura lógica interna** que organiza cómo se mueve la información dentro de la red.
 
----
-
 ## Para qué sirve
 
 - Comunicación local fuera de Internet  
@@ -32,8 +28,6 @@ No hay servidores de Internet ni infraestructura externa, pero sí existe una **
 - Zonas rurales con mala cobertura  
 - Red comunitaria resiliente  
 - Experimentación técnica con redes distribuidas sobre LoRa  
-
----
 
 ## Características técnicas
 
@@ -45,8 +39,6 @@ No hay servidores de Internet ni infraestructura externa, pero sí existe una **
 - Dependencia de Internet: Ninguna para operar la red  
 - Infraestructura externa: No necesaria 
 
----
-
 ## Cómo unirse a Red Sierra Sur
 
 1. Consigue un dispositivo LoRa compatible  
@@ -56,8 +48,6 @@ No hay servidores de Internet ni infraestructura externa, pero sí existe una **
 5. Configura la región: EU868 Narrow  
 6. Únete al room de Red Sierra Sur mediante QR o clave pública  
 
----
-
 ## Principios del proyecto
 
 - Infraestructura construida por la comunidad  
@@ -66,21 +56,15 @@ No hay servidores de Internet ni infraestructura externa, pero sí existe una **
 - Resiliencia ante fallos de red  
 - Software y conocimiento libre  
 
----
-
 ## Estado de la red
 
 La red está en crecimiento. Cada nodo y cada repeater mejoran cobertura, rutas y robustez.
-
----
 
 ## Enlaces
 
 - MeshCore: https://meshcore.co.uk  
 - Comunidad / coordinación: https://discord.gg/Drc87vUQVm
 - Código del proyecto: este repositorio
-
----
 
 ## Licencia
 
