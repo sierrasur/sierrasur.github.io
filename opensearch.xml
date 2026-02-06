@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Red Sierra Sur</ShortName>
+  <Description>Red mesh descentralizada en Jaén. Comunicación libre y off-grid basada en MeshCore.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+
+  <Url
+    type="text/html"
+    method="get"
+    template="https://sierrasur.github.io/?q={searchTerms}" />
+
+  <Image height="32" width="32" type="image/png">
+    https://sierrasur.github.io/img/favicon-32x32.png
+  </Image>
+</OpenSearchDescription>
