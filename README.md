@@ -63,8 +63,6 @@ La red está en crecimiento. Cada nodo y cada repeater mejoran cobertura, rutas 
 
 Si quieres añadir un repetidor a la malla recomendamos utilizar **[notación maidenhead](https://en.wikipedia.org/wiki/Maidenhead_Locator_System)** con una aproximación mínima de ocho (en ciudad) o seis caracteres (campo abierto o muy buena altura).
 
-Déjanos un correo o entra en nuestro discord para que lo subamos al mapa.
-
 **Ejemplo**: IM87CS57
 
 ![Repetidor en ciudad](https://i.imgur.com/Ezr2Tar.png)
