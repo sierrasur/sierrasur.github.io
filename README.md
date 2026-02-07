@@ -38,8 +38,7 @@ No hay servidores de Internet ni infraestructura externa, pero sí existe una **
 - Banda usada: EU868 Narrow
 - Arquitectura: Red mesh con roles (companion / repeater / room)   
 - Organización de comunicaciones: Rooms cifradas  
-- Dependencia de Internet: Ninguna para operar la red  
-- Infraestructura externa: No necesaria 
+- Dependencia de Internet: Ninguna para operar la red
 
 ## Cómo unirse a Red Sierra Sur
 
@@ -47,8 +46,8 @@ No hay servidores de Internet ni infraestructura externa, pero sí existe una **
 2. Flashea MeshCore con el flasher web oficial  
 3. Instala la app MeshCore (Android/iOS)  
 4. Conéctate al nodo por Bluetooth  
-5. Configura la región: EU868 Narrow  
-6. Únete al room de Red Sierra Sur mediante QR o clave pública  
+5. Configura la región: EU868 Narrow , SF 8, CR 8
+6. Únete al room de Red Sierra Sur mediante QR o clave pública
 
 ## Principios del proyecto
 
@@ -61,6 +60,14 @@ No hay servidores de Internet ni infraestructura externa, pero sí existe una **
 ## Estado de la red
 
 La red está en crecimiento. Cada nodo y cada repeater mejoran cobertura, rutas y robustez.
+
+Si quieres añadir un repetidor a la malla recomendamos utilizar **[notación maidenhead](https://en.wikipedia.org/wiki/Maidenhead_Locator_System)** con una aproximación mínima de ocho (en ciudad) o seis caracteres (campo abierto o muy buena altura).
+
+Déjanos un correo o entra en nuestro discord para que lo subamos al mapa.
+
+**Ejemplo**: IM87CS57
+
+![Repetidor en ciudad](https://i.imgur.com/Ezr2Tar.png)
 
 ## Enlaces
 
