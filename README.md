@@ -70,7 +70,7 @@ Si quieres añadir un repetidor a la malla recomendamos utilizar **[notación ma
 ## Enlaces
 
 - Nuestra web: https://sierrasur.github.io
-- Comunidad / coordinación: https://discord.gg/Drc87vUQVm
+- Comunidad / coordinación: [Foro / Discussions](https://github.com/sierrasur/sierrasur.github.io/discussions)
 - MeshCore: https://meshcore.co.uk  
 - Flasher de dispositivos: https://flasher.meshcore.co.uk/
 - Mapa de red: https://meshcore.co.uk/map.html
